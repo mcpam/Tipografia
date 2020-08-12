@@ -100,17 +100,8 @@ h4,
 h5 {
   font-family: "Overpass Mono", monospace;
 }
+
 h1 {
-  /* h1 */
-
-  position: absolute;
-  width: 64px;
-  height: 79px;
-  left: 64px;
-  top: 150px;
-
-  /* Heading */
-
   font-family: Overpass Mono;
   font-style: normal;
   font-weight: bold;
@@ -120,14 +111,6 @@ h1 {
   color: #000000;
 }
 h2 {
-  /* h2 */
-
-  position: absolute;
-  width: 31px;
-  height: 38px;
-  left: 64px;
-  top: 264px;
-
   /* Lead */
 
   font-family: PT Sans;
@@ -141,14 +124,6 @@ h2 {
 }
 
 h3 {
-  /* h3 */
-
-  position: absolute;
-  width: 25px;
-  height: 32px;
-  left: 64px;
-  top: 332px;
-
   /* button */
 
   font-family: Overpass Mono;
@@ -162,14 +137,6 @@ h3 {
 }
 
 h4 {
-  /* h4 */
-
-  position: absolute;
-  width: 25px;
-  height: 32px;
-  left: 64px;
-  top: 392px;
-
   /* link */
 
   font-family: Overpass Mono;
