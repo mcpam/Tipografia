@@ -1,0 +1,186 @@
+/* Tipografía */
+/*
+@font-face {
+  font-family: 'my-font';
+  src: url('myfont.woff2')
+    format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}*/
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;600&family=PT+Sans&display=swap");
+/****************************************
+*    Variables
+*****************************************/
+/* Resets */
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+blockquote,
+body,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+hr,
+li,
+ol,
+pre,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+button,
+input,
+textarea {
+  border: 1px solid gray;
+}
+button {
+  border-radius: 0;
+  padding: 0.75em 1em;
+  background-color: transparent;
+}
+button * {
+  pointer-events: none;
+}
+embed,
+iframe,
+img,
+object,
+video {
+  display: block;
+  max-width: 100%;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+[hidden] {
+  display: none;
+}
+noscript {
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/****************************************
+*    Base
+*****************************************/
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Overpass Mono", monospace;
+}
+h1 {
+  /* h1 */
+
+  position: absolute;
+  width: 64px;
+  height: 79px;
+  left: 64px;
+  top: 150px;
+
+  /* Heading */
+
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51.88px;
+  line-height: 79px;
+
+  color: #000000;
+}
+h2 {
+  /* h2 */
+
+  position: absolute;
+  width: 31px;
+  height: 38px;
+  left: 64px;
+  top: 264px;
+
+  /* Lead */
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 140%;
+  /* identical to box height, or 38px */
+
+  color: #000000;
+}
+
+h3 {
+  /* h3 */
+
+  position: absolute;
+  width: 25px;
+  height: 32px;
+  left: 64px;
+  top: 332px;
+
+  /* button */
+
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+  /* identical to box height, or 32px */
+
+  color: #000000;
+}
+
+h4 {
+  /* h4 */
+
+  position: absolute;
+  width: 25px;
+  height: 32px;
+  left: 64px;
+  top: 392px;
+
+  /* link */
+
+  font-family: Overpass Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  /* identical to box height, or 32px */
+
+  color: #000000;
+}
+/****************************************
+*    Componentes
+*****************************************/
